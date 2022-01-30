@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Contactenos"/>
+    <meta name="description" content="Somos una pareja emprendedora dedicada a decorar cada espacio de tu hogar y llenarlos de amor. No dudes en pedirnos una cotizacion y nos pondremos en contacto con vos."/>
+    <meta name="keywords" content="Decoración, Deco, Diseño de interiores, Diseño, Ambientación, Ambientes"/>
+    <title>Contactanos</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg prueba">
+       <div class="container-fluid prueba">
+         <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="logo"></a>
+         <button class="navbar-toggler hamburgesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon hamburgesa"><img src="../img/menu.png" class="hamburguesa"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="nosotros.html">Nosotros</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link activo" href="contactanos.html">Contactanos</a>
+             </li>
+           </ul>
+         </div>
+         <a href="carrito.html" ><img src="../img/comprar.png" class="logo_2"></a>
+       </div>
+     </nav>
+
+    <h2 class="sub_titulo">Decoramos cada espacio de tu hogar</h2>
+ </header>
+
+ <section class="pre_form container mt-5">
+    <h1>Contactanos</h1>
+    <div>
+      <h6>Consultanos lo que necesites saber, nos contactaremos con vos mediante un mail lo más rápido posible.</h6>
+    </div>
+ </section>
+
+ <form class="form_contactanos row g-3">
+  <div class="col-md-5">
+    <label for="input" class="form-label">Nombre</label>
+    <input type="text" class="form-control" placeholder="Pedro">
+  </div>
+  <div class="col-md-5">
+    <label for="input" class="form-label">Apellido</label>
+    <input type="text" class="form-control" placeholder="Perez">
+  </div>
+  <div class="col-md-10">
+    <label for="inputAddress" class="form-label">Dirección</label>
+    <input type="text" class="form-control" placeholder="Av.Peron 1234">
+  </div>
+  <div class="col-md-10">
+    <label for="inputAddress2" class="form-label">Piso, Departamento</label>
+    <input type="text" class="form-control" placeholder="4b">
+  </div>
+  <div class="col-md-4">
+    <label for="inputCity" class="form-label">Provincia</label>
+    <input type="text" class="form-control" id="inputState" placeholder="Bs.As.">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Ciudad</label>
+    <select id="inputCity" class="form-select">
+      <option selected>Selecione</option>
+      <option>Palermo</option>
+      <option>Retiro</option>
+      <option>Chacarita</option>
+      <option>La Boca</option>
+      <option>Cañuelas</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="input" class="form-label">C.P.</label>
+    <input type="text" class="form-control">
+  </div>
+  <div class="col-md-10">
+    <label for="exampleFormControlTextarea1" class="form-label">Contactenos</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Cuentenos como podemos ayudarlo"></textarea>
+  </div>
+  <div class="col-10">
+    <button type="submit" class="boton btn">Enviar</button>
+  </div>
+</form>
+
+ <footer>
+  <h4>Copyrigth - Todos los derechos reservados</h4>
+  <div>
+     <p class="colorParrafos">Seguinos en nuestras <span>redes sociales</span></p>
+     <a href="../index.html"> <img src="../img/logo.png" alt="logo" class="redes"></a>
+     <a href="https://www.instagram.com/indivar_deco/" target="_blank"><img src="../img/instagram.png" class="redes" alt="instagram"></a>
+     <a href="https://www.facebook.com/Indivardeco-101982721963407" target="_blank"><img src="../img/facebook.png" class="redes" alt="facebook"></a>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

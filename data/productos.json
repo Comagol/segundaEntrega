@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "producto": "Escalera Nórdica",
+        "precio": 1750,
+        "img" :"../img/escalera_madera.jpg"
+    },
+    {
+        "id": 2,
+        "producto": "Estantes Rectangulares",
+        "precio": 1200,
+        "img" : "../img/estantes_cuadrados_madera.jpg"
+    },
+    {
+        "id": 3,
+        "producto": "Huerta",
+        "precio": 3500,
+        "img" : "../img/macetero_madera.jpg"
+    },
+    {
+        "id": 4,
+        "producto": "Huerta Balconera",
+        "precio": 3000,
+        "img" :"../img/macetero_pared_madera.jpg"
+    },
+    {
+        "id": 5,
+        "producto": "Huerta de Pared",
+        "precio": 2750,
+        "img" :"../img/macetero_pared_madera_1.jpg"
+    },
+    {
+        "id": 6,
+        "producto": "Mesa de Luz",
+        "precio": 6000,
+        "img" :"../img/mesa_luz_madera.jpg"
+    },
+    {
+        "id": 7,
+        "producto": "Mesa de Luz Nórdica",
+        "precio": 6500,
+        "img" :"../img/mesa_luz_madera_1.jpg"
+    },
+    {
+        "id": 8,
+        "producto": "Portamacetas Nórdico",
+        "precio": 1500,
+        "img" :"../img/portamacetas_madera.jpg"
+    },
+    {
+        "id": 9,
+        "producto": "Mesa de luz",
+        "precio": 3000,
+        "img" :"../img/mesa_luz_hierro_4.jpg"
+    },
+    {
+        "id": 10,
+        "producto": "Mesa de Arrime",
+        "precio": 3500,
+        "img" :"../img/mesa_luz_hierro_5.jpg"
+    },
+    {
+        "id": 11,
+        "producto": "Mesa Ratona",
+        "precio": 4500,
+        "img" :"../img/mesa_ratona_hexagonal.jpg"
+    },
+    {
+        "id":12,
+        "producto": "Zapatero",
+        "precio": 3800,
+        "img" :"../img/banco_zapatero.jpg"
+    }
+]
